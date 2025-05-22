@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 93.7%;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  max-width: 32rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 6.4rem;
+}
+
+.qr-img {
+  width: 300px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Issues with the sizing so far, trying to make it
+look like the image. Other than that, I just have to refer
+to my notes a few times for some of the little things.
+
+
+*/
