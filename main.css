@@ -6,33 +6,64 @@
 
 html {
   font-size: 93.7%;
-}
-
-aside {
-  display: flex;
-  flex-direction: column;
-  max-width: 32rem;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 6.4rem;
+  background-color: #d5e1ef;
+  font-family: "Outfit", sans-serif;
 }
 
 .qr-img {
-  width: 300px;
+  width: 18rem;
+  border-radius: 10px;
+  margin-bottom: 1.6rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.5rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-/* Issues with the sizing so far, trying to make it
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #fff;
+  margin: 9.6rem auto;
+  border-radius: 10px;
+  height: 33rem;
+}
+
+.heading-tertiary {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #1f314f;
+  text-align: center;
+}
+
+.scan-text {
+  line-height: 1.4;
+  letter-spacing: 0.2;
+  color: #68778d;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+/* 
+ISSUE TRACKING FOR REFLECTION
+
+Issues with the overall sizing so far (image), trying to make it
 look like the image. Other than that, I just have to refer
 to my notes a few times for some of the little things.
 
+Getting the image itself to center in the container
+
+Getting the spacing correct with the entire container
 
 */
