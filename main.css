@@ -11,7 +11,9 @@ html {
 }
 
 .qr-img {
-  width: 18rem;
+  /* width: 20rem; */
+
+  width: 20rem;
   border-radius: 10px;
   margin-bottom: 1.6rem;
 }
@@ -27,14 +29,16 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 20rem;
+  /* max-width: 20rem; */
+  max-width: 22rem;
   align-items: center;
   justify-content: center;
   padding: 2rem;
   background-color: #fff;
-  margin: 9.6rem auto;
+  margin: 12.8rem auto;
   border-radius: 10px;
-  height: 33rem;
+  height: 34rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
 }
 
 .heading-tertiary {
@@ -54,17 +58,3 @@ html {
   margin-bottom: 1.6rem;
   text-align: center;
 }
-
-/* 
-ISSUE TRACKING FOR REFLECTION
-
-Issues with the overall sizing so far (image), trying to make it
-look like the image. Other than that, I just have to refer
-to my notes a few times for some of the little things.
-
-Getting the image itself to center in the container
-
-Getting the spacing correct with the entire container
-
-OVERALL getting the spacing correct for the overall layout and the components within.
-*/
